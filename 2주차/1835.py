@@ -12,7 +12,6 @@ for i in range(N-1,0,-1):
 for card in pile:
     print(card,end=" ")
 
-
 ## in first pile of cards
 # 1st card-> last
 # 2nd card=1
