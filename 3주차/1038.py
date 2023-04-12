@@ -1,7 +1,6 @@
 from itertools import combinations
 
 N=int(input())
-
 lst=[]
 # 9876543210 -> 10자리 수
 for i in range(1,11):
