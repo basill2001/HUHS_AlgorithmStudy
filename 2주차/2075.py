@@ -33,9 +33,8 @@ print(heapq.heappop(field))
 #             floor.append(track)
 #             del floor[0]
 #             floor.sort()
-
+#
 #         if len(column)==0:
 #             break
 #     if len(column)==0:
 #         break
-
