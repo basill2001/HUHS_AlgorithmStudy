@@ -1,7 +1,7 @@
 N=int(input())
 
 #입력받기
-#단어 중복 맏기 위해 set으로
+#단어 중복 막기 위해 set으로
 wordset=set()
 for i in range(N):
     word=input()
