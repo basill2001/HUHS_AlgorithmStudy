@@ -28,4 +28,5 @@ else:
 #범위
 print(nums[N-1]-nums[0])
 
-##probs : 시간 초과, Counter import해서 해결
+##probs : 시간 초과
+##solution : Counter import해서 해결
