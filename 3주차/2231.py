@@ -8,13 +8,10 @@ def decompose(number):
         M+=int(N[i])
     return M
 
-i=0
-while i<=N:
-    if decompose(i)==N:
-        print(i)
-        break
-    
+generator=0 # 생성자가 없는 경우엔 0을 출력 
 for i in range(N):
+    # 가장 작은 생성자 구하기
     if decompose(i)==N:
-        print(i)
+        generator=i 
         break
+print(generator)
