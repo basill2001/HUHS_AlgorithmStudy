@@ -1,3 +1,4 @@
+# 난쟁이들의 키 받기
 heights=[]
 for i in range(9):
     heights.append(int(input()))
@@ -5,6 +6,7 @@ for i in range(9):
 result=[]
 # 2345678
 
+# 차례로 뽑기
 for a in range(3):
     for b in range(a+1,4):
         for c in range(b+1,5):
@@ -19,9 +21,12 @@ for a in range(3):
                             he=heights[e]
                             hf=heights[f]
                             hg=heights[g]
+                            # 합이 100이면 정답
                             if ha+hb+hc+hd+he+hf+hg==100:
                                 result.append([ha,hb,hc,hd,he,hf,hg])
 
+# 첫번째 결과
 result[0].sort()
+# 출력
 for dwarf in result[0]:
     print(dwarf)
