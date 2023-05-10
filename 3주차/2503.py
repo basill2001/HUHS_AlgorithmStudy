@@ -1,11 +1,12 @@
 # 숫자 생성
 # 가능한 전체 숫자의 리스트
+from itertools import permutations
+comb=list(permutations(range(1,10),3))
 pred=[]
-for i in range(1,10):
-    for j in range(1,10):
-        for k in range(1,10):
-            if i!=j and j!=k and k!=i:
-                pred.append(str(100*i+j*10+k))
+for nums in comb:
+    nums=str(nums)
+    number=nums[1]+nums[4]+nums[7]
+    pred.append(number)
 
 # 예측
 def prediction(num,strike,ball,given):
