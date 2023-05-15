@@ -1,4 +1,6 @@
 N=int(input())
+
+# candy 받기
 candies=[]
 for i in range(N):
     candies.append(list(input()))
