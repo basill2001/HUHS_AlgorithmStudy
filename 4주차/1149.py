@@ -11,3 +11,5 @@ for i in range(1,N):
     costs[i][1]=costs[i][1]+min(costs[i-1][0],costs[i-1][2])
     costs[i][2]=costs[i][2]+min(costs[i-1][0],costs[i-1][1])
 print(min(costs[N-1]))
+
+# 원리 이해 못했음..
