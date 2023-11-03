@@ -1,2 +1,2 @@
 # Algorithm-study
-description(optional)
+Repo. for Algorithm-study at 2023
